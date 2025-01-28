@@ -1109,6 +1109,45 @@
           </tr>
 				
 				
+				    <tr onmouseout="motionblur_stop()" onmouseover="motionblur_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <img src='images/qi2025driveattention.png' width="180" height="180">
+              </div>
+              <script type="text/javascript">
+                function motionblur_start() {
+                  document.getElementById('motionblur_image').style.opacity = "1";
+                }
+
+                function motionblur_stop() {
+                  document.getElementById('motionblur_image').style.opacity = "0";
+                }
+                motionblur_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/2501.15045">
+                <papertitle>Towards Robust Unsupervised Attention Prediction in Autonomous Driving</papertitle>
+              </a>
+              <br>
+              <strong>Mengshi Qi*</strong>,
+			  <a href="">Xiaoyang Bi</a>,
+			  <a href="">Pengfei Zhu</a>,
+			  <a href="">Huadong Ma</a>
+              <br>
+              <em>Arxiv</em>, 2025 &nbsp <font color="red"><strong>(An extension of our ICCV 23' paper)</strong></font>
+              <br>
+              <a href="https://arxiv.org/pdf/2501.15045">pdf</a> /
+			  <a href="https://arxiv.org/abs/2501.15045">arxiv</a> /
+			  <a href="https://github.com/zaplm/DriverAttention">code</a> /
+			  <a href="https://github.com/zaplm/DriverAttention">data</a> /
+			  <a href="">press</a> /
+              <a href="">bibtex</a>
+              <p></p>
+              <p>In this paper, we propose a novel robust unsupervised attention prediction method, which includes an Uncertainty Mining Branch,  Knowledge Embedding Block, and RoboMixup, a novel data augmentation method to improve robustness against corruption and central bias. </p>
+            </td>
+          </tr>
+				
 				
 				
 				
